@@ -2,7 +2,6 @@ name: Deploy to PolyAPI
 on:
   push:
     branches:
-      - develop
       - main
 
 jobs:
@@ -14,4 +13,4 @@ jobs:
 
     steps:
       - name: Poly Deploy
-        uses: polyapi/poly-deployment-action-js@v1
+        uses: polyapi/poly-deployment-action-js@v0.1.0-alpha
