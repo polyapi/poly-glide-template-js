@@ -13,4 +13,4 @@ jobs:
 
     steps:
       - name: Poly Deploy
-        uses: polyapi/poly-deployment-action-js@v0.2.0-alpha
+        uses: polyapi/poly-deployment-action-js@v0.2.1-alpha
