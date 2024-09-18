@@ -1,0 +1,20 @@
+{
+  "name": "poly-glide-template",
+  "version": "0.0.1",
+  "description": "This is a template project to demonstrate how to integrate with PolyAPI in a git-centric typescript workflow",
+  "main": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "polyapi": "develop",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
+  },
+  "devDependencies": {
+    "husky": "^9.1.6"
+  }
+}

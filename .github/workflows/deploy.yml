@@ -1,0 +1,17 @@
+name: Deploy to PolyAPI
+on:
+  push:
+    branches:
+      - develop
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    concurrency:
+      group: ${{ github.ref }}
+      cancel-in-progress: true
+
+    steps:
+      - name: Poly Deploy
+        uses: polyapi/poly-deployment-action-js@v1
