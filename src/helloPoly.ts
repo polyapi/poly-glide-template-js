@@ -1,3 +1,4 @@
+// Poly deployed @ 2024-09-18T20:54:42.005Z - demo.helloPoly - https://na1.polyapi.io/canopy/polyui/collections/server-functions/94e84af1-4ddb-446e-8b6e-2572ad9e240e
 // Poly deployed @ 2024-09-18T20:53:12.814Z - demo.helloPoly - https://na1.polyapi.io/canopy/polyui/collections/server-functions/94e84af1-4ddb-446e-8b6e-2572ad9e240e
 import { PolyServerFunction } from "polyapi"
 
