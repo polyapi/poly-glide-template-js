@@ -4,7 +4,7 @@
   "description": "This is a template project to demonstrate how to integrate with PolyAPI in a git-centric typescript workflow",
   "main": "",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "echo \"Error: no test specified\" && exit 2",
     "prepare": "husky"
   },
   "author": "",
