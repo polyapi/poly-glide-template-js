@@ -1,4 +1,4 @@
-// Poly deployed @ 2024-09-18T18:33:21.116Z - demo.helloPoly - https://na1.polyapi.io/canopy/polyui/collections/server-functions/a1df03c9-3fba-4d79-a3d7-35a0e6c71148
+// Poly deployed @ 2024-09-18T18:37:04.420Z - demo.helloPoly - https://na1.polyapi.io/canopy/polyui/collections/server-functions/a1df03c9-3fba-4d79-a3d7-35a0e6c71148
 import { PolyServerFunction } from "polyapi"
 
 export const polyConfig: PolyServerFunction = {
