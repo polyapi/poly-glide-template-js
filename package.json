@@ -1,7 +1,7 @@
 {
   "name": "poly-glide-template",
   "version": "0.0.1",
-  "description": "This is a template project to demonstrate how to integrate with PolyAPI in a git-centric typescript workflow",
+  "description": "This is a template project to demonstrate how to integrate with PolyAPI in a git-centric typescript workflow.",
   "main": "",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 2",
