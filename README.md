@@ -17,25 +17,29 @@ In addition you'll need an API key for PolyAPI. If you don't have one, signup at
 
 ## Getting started
 
-1. Fork this repository right from Github. Github will give you the chance to rename it at this time. OR you can clone it or you can download the template project as a [zip file](https://github.com/polyapi/poly-glide-template-js/archive/refs/heads/main.zip).
+1. Clone this repository from Github using `git clone --branch main --single-branch https://github.com/polyapi/poly-glide-template-js.git your-repository-name` (Be sure to change the destination name to be whatever you want) Or you can download the template project as a [zip file](https://github.com/polyapi/poly-glide-template-js/archive/refs/heads/main.zip).
 
-2. Setup the necessary secrets while you're here in github.
+2. From within your local project directory disconnect from the template repositoy: `git remote remove origin`
+
+3. Set up a new repository in github using the same name as the directory you cloned into in step 1.
+
+4. Setup the necessary repository secrets in github which will be used to deploy your code.
    
    Add `POLY_API_KEY_PROD` and `POLY_API_BASE_URL_PROD` as action secrets in your git repo.
    
    See [Github documentation](https://docs.github.com/en/actions/security-for-github-actions/security-guides/using-secrets-in-github-actions#creating-secrets-for-a-repository) for more details on creating secrets.
 
-3. Clone your new repository onto your local machine `git clone https://github.com/yourusername/your-repository-name.git` and open it up in your favorite editor: VSCode.
+5. Connect you local project with your new remote repository by running `git remote add origin https://github.com/yourusername/your-repository-name.git` followed by `git push --set-upstream origin main`
 
-4. Update the `package.json` name, description, author, and license fields to your satisfaction. And modify or delete the `README.md` file to be relevant for your project.
+6. Update the `package.json` name, description, author, and license fields to your satisfaction. And modify or delete the `README.md` file to be relevant for your project.
 
-5. Install all needed project dependencies using `npm install`.
+7. Install all needed project dependencies using `npm install`.
 
-6. Setup the polyapi client by running `npx poly setup` and putting in your instance url and api key.
+8. Setup the polyapi client by running `npx poly setup` and putting in your instance url and api key.
 
-7. Run `npx poly generate` to generate the full, up-to-date typescript SDK for PolyAPI (which includes functions Poly makes available out of the box as well as any functions other members of your team might create and publish).
+9. Run `npx poly generate` to generate the full, up-to-date typescript SDK for PolyAPI (which includes functions Poly makes available out of the box as well as any functions other members of your team might create and publish).
 
-8. Optionally edit or remove the `./src/helloPoly.ts` file.
+10. Optionally edit or remove the `./src/helloPoly.ts` file.
 
 And that's it! Your project should now be ready to develop and deploy to PolyAPI.
 
