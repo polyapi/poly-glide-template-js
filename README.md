@@ -14,6 +14,7 @@ If you're on MacOS or Linux there's a good chance you already have these install
 
 In addition you'll need an API key for PolyAPI. If you don't have one, signup at: https://polyapi.io/
 
+And lastly you'll need a github account, and be able to make commits to it from git in your shell.
 
 ## Getting started
 
