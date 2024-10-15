@@ -39,7 +39,7 @@ In addition you'll need an API key for PolyAPI. If you don't have one, signup at
 
 9. Run `npx poly generate` to generate the full, up-to-date typescript SDK for PolyAPI (which includes functions Poly makes available out of the box as well as any functions other members of your team might create and publish).
 
-10. Optionally edit or remove the `./src/helloPoly.ts` file.
+10. Optionally remove the `./examples` directory with it's example `helloPoly.ts` function.
 
 And that's it! Your project should now be ready to develop and deploy to PolyAPI.
 
