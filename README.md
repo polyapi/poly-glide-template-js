@@ -30,17 +30,23 @@ And lastly you'll need a github account, and be able to make commits to it from 
    
    See [Github documentation](https://docs.github.com/en/actions/security-for-github-actions/security-guides/using-secrets-in-github-actions#creating-secrets-for-a-repository) for more details on creating secrets.
 
-5. Connect you local project with your new remote repository by running `git remote add origin https://github.com/yourusername/your-repository-name.git` followed by `git push --set-upstream origin main`
+5. Update Github actions workflow permissions to `Read and write permissions`
 
-6. Update the `package.json` name, description, author, and license fields to your satisfaction. And modify or delete the `README.md` file to be relevant for your project.
+    ![alt text](image.png)
 
-7. Install all needed project dependencies using `npm install`.
+    click `Save`
 
-8. Setup the polyapi client by running `npx poly setup` and putting in your instance url and api key.
+6. Connect you local project with your new remote repository by running `git remote add origin https://github.com/yourusername/your-repository-name.git` followed by `git push --set-upstream origin main`
 
-9. Run `npx poly generate` to generate the full, up-to-date typescript SDK for PolyAPI (which includes functions Poly makes available out of the box as well as any functions other members of your team might create and publish).
+7. Update the `package.json` name, description, author, and license fields to your satisfaction. And modify or delete the `README.md` file to be relevant for your project.
 
-10. Optionally remove the `./examples` directory with it's example `helloPoly.ts` function.
+8. Install all needed project dependencies using `npm install`.
+
+9. Setup the polyapi client by running `npx poly setup` and putting in your instance url and api key.
+
+10. Run `npx poly generate` to generate the full, up-to-date typescript SDK for PolyAPI (which includes functions Poly makes available out of the box as well as any functions other members of your team might create and publish).
+
+11. Optionally remove the `./examples` directory with it's example `helloPoly.ts` function.
 
 And that's it! Your project should now be ready to develop and deploy to PolyAPI.
 
